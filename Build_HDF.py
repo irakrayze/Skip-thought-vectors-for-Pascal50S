@@ -2,6 +2,13 @@ import h5py
 import scipy.io as scio
 import Extract_Vector.py
 
+"""
+This method recieves 3 inputs: docAll- a txt file with the names(ids) of all images in Pascal50S, 
+docVis1 - a mat file with visual features for each of the images, 
+docVis2 - a mat file with different visual features for each of the images.
+It stores all the data: image id, the 50  relevant descriptions per image,  the image visual features and the description 
+vectors in a convinient fromat- HDF https://www.hdfgroup.org/HDF5/whatishdf5.html
+"""
 def Build_HDF(docAll, docVis1, docVis2 ):
 
     dataset_name = 'Pascal50S'
