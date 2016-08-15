@@ -44,7 +44,7 @@ def Build_HDF(docAll, docVis1, docVis2 ):
         pascal_file = '/home/ira/Documents/pascal50S.mat'
         Images_Dictionary={}
         Image_vectors_dic={}
-        Images_Dictionary, Image_vectors_dic, num_sentences=Extraxt_Vector(pascal_file) #num_sentences=50
+        Images_Dictionary, Image_vectors_dic, num_sentences=Extraxt_Sentence_Vector(pascal_file) #num_sentences=50
         
         ########################################  BUILD DATASET #######################################################
         dt = h5py.special_dtype(vlen=unicode)
