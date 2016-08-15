@@ -4,8 +4,8 @@ import theano
 import numpy
 import csv
 
-def extract_Vector(pascal_file):
-    #pascal_file='/home/ira/Documents/Visual_Research/Diverse/Datasets/pascal50S.mat'
+def Extract_Vector(pascal_file):
+    #pascal_file='/home/ira/Documents/pascal50S.mat'
     
     # extracting matlab struct
     mat = scipy.io.loadmat(pascal_file, struct_as_record=True)
