@@ -4,6 +4,10 @@ import theano
 import numpy
 import csv
 
+
+# This function recieves as input Pascal50S data set from http://ramakrishnavedantam928.github.io/cider/
+# It returns 2 dictionaries: the first one is Images_Dictionary, a dictionary with image ids and the corresponding 50 descriptions for each image
+# the second one is Image_vectors_dic, a dictionary with image ids and skip-thought vectors for each description following https://github.com/ryankiros/skip-thoughts
 def Extract_Vector(pascal_file):
     #pascal_file='/home/ira/Documents/pascal50S.mat'
     
