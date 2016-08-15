@@ -2,7 +2,6 @@ import skipthoughts
 import scipy.io
 import theano
 import numpy
-import csv
 
 """
 This method recieves as input Pascal50S data set from http://ramakrishnavedantam928.github.io/cider/
