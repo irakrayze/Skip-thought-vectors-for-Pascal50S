@@ -1,6 +1,5 @@
 import h5py
 import scipy.io as scio
-import numpy
 import Extract_Vector.py
 
 def Build_HDF(docAll, docVis1, docVis2 ):
