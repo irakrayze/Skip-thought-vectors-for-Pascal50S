@@ -51,4 +51,4 @@ def Extract_Vector(pascal_file):
         else:
             Image_vectors_dic[key]=vectors
 
-    return Images_Dictionary, Image_vectors_dic
+    return Images_Dictionary, Image_vectors_dic, num_sentences
